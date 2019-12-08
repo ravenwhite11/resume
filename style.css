@@ -1,0 +1,196 @@
+body{}
+.box{
+	background-color: #353535;
+	height: 100px;
+	width: 100%;
+}
+
+
+.container{
+	background: #F4826A;
+	height: 550px;
+	padding: 50px 0 0 0;
+}
+.container > .row{
+	padding: 70px 0 0 0;
+	color: white;
+	
+}
+
+h2{
+	padding-bottom: 15px;
+	color: gray;
+}
+
+
+#Head{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin:0 auto;
+	position: relative;top: 20%;
+	background: url('IMG/02.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#Head_Border{
+	width: 350px;
+	height: 350px;
+	position: relative;left: 30%;;
+	border-style:solid;
+	border-color: #FFFFFF;
+	border-width: 5px;
+	display: inline-block;
+}
+.second{
+	background: #DCDDDF;
+	height: 1500px;
+}
+
+.second > .row > div{
+	color: #444444;
+}
+
+.EXP_Border{
+	border: 2px solid #353535;
+	border-radius: 5px;
+	background: #353535;
+	padding: 15px 20px;
+	color: white;
+	margin: 10px 0 20px 0;
+}
+.EXP_IMG{
+	overflow: hidden;
+}
+.EXP_IMG img{
+	transition: all 1.2s;
+}
+.EXP_IMG img:hover{
+	transform: scale(1.2);
+}
+.EXP_TEXT{
+	padding-bottom: 15px;
+}
+
+
+.circle {
+	display: inline-block;
+	margin: 1em;
+}
+.circles-decimals {
+	font-size: .4em;
+	background: white;
+}
+.PS_1{
+	color: #444444;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+.five{
+	padding-bottom: 30px;
+}
+
+
+.progress{
+	height: 30px;
+	width: 240px;
+	border: white solid 2px;
+	font-family: Microsoft JhengHei UI;
+	font-weight: bold;
+}
+
+.A{
+	animation-duration:1.5s;
+	animation-timing-function:ease-in;
+	animation-name: appleA;
+
+}
+.B{
+	animation-duration:1.5s;
+	animation-timing-function:ease-in;
+	animation-name: appleB;
+}
+.C{
+	animation-duration:1.5s;
+	animation-timing-function:ease-in;
+	animation-name: appleC;
+}	
+.D{
+	animation-duration:1.5s;
+	animation-timing-function:ease-in;
+	animation-name: appleD;
+}	
+.E{
+	animation-duration:1.5s;
+	animation-timing-function:ease-in;
+	animation-name: appleE;
+}	
+@keyframes appleA {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 35%;
+	}
+}
+@keyframes appleB {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+@keyframes appleC {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 70%;
+	}
+}
+@keyframes appleD {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+@keyframes appleE {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 65%;
+	}
+}
+figure {
+	width: 300px;
+
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-radius: 5px;
+}
+figure > img{
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.card-body{
+	margin-top: -10px;
+
+}
