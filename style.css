@@ -16,7 +16,12 @@ body{}
 	color: white;
 	
 }
-
+.container > .row > .col-4 > span{
+	text-align: center;
+	color: #372E2E;
+	font-style: italic;
+	position: relative;left: 60px;
+}
 h2{
 	padding-bottom: 15px;
 	color: gray;
@@ -29,7 +34,7 @@ h2{
 	border-radius: 100px;
 	margin:0 auto;
 	position: relative;top: 20%;
-	background: url('IMG/02.jpg');
+	background: url('IMG/01.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -177,13 +182,15 @@ figure {
 	filter: blur(3px);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	border-radius: 5px;
+	
 }
 figure > img{
 	-webkit-filter: blur(3px);
 	filter: blur(3px);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	width: 300px;
+	
 }
 figure:hover {
 	-webkit-filter: blur(0);
@@ -192,5 +199,14 @@ figure:hover {
 
 .card-body{
 	margin-top: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 302px;
+	overflow: hidden;
+}
+.card-img-top{
 
+}
+.third{
+	background-color: #DCDDDF;
 }
