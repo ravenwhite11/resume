@@ -210,3 +210,12 @@ figure:hover {
 .third{
 	background-color: #DCDDDF;
 }
+#doge{
+	color: #2D7F7F;
+	position: relative; top: 10px;
+	text-align: right;
+}
+#doge:hover{
+	color: white;
+	text-decoration: none;
+}
